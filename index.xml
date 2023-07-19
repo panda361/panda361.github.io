@@ -5,8 +5,15 @@
         <link>/</link>
         <description>Recent content on Panda&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Jul 2023 20:08:59 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Test</title>
+        <link>/test/test/</link>
+        <pubDate>Tue, 18 Jul 2023 20:08:59 +0800</pubDate>
+        
+        <guid>/test/test/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Chinese Test</title>
         <link>/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -136,9 +143,76 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;Address: New Main Building G951, Beihang Unversity, Beijing, China, 100191.&lt;/p&gt;
-&lt;p&gt;E-mail: &lt;a class=&#34;link&#34; href=&#34;mailto:panda361@163.com&#34; &gt;panda361@163.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Dayan Pan, a PhD in BUAA, likes sleeping.&lt;/p&gt;
+        <description>&lt;p&gt;👋你好！
+这里是潘达岩的个人说明书&lt;del&gt;主页&lt;/del&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;总览&#34;&gt;总览&lt;/h2&gt;
+&lt;p&gt;我是谁🧐？你可以叫我🐼，panda或者其他任何名字&lt;/p&gt;
+&lt;p&gt;我喜欢😊？一切可以带来欢乐的事情，旅游、骑车、唱歌、&lt;del&gt;修电脑&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;我在做🫢？时空数据挖掘的研究者、前沿编程技术的学习者、实验室服务器运维+虚拟化探索、&lt;del&gt;专业Word、PPT工程师？&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;我想做🫥？产+研、软件+硬件、前端+后端+架构、工作+生活&lt;/p&gt;
+&lt;h2 id=&#34;教育经历&#34;&gt;教育经历&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023（即将），香港城市大学 应用机器学习实验室（Applied Machine Learning Lab ），博士（在读），导师：赵翔宇&lt;/li&gt;
+&lt;li&gt;2019-至今，北京航空航天大学 智慧城市大数据智能研究组（BIGSCity），博士（在读），导师：王静远&lt;/li&gt;
+&lt;li&gt;2015-2019，北京理工大学 计算机学院 物联网工程，学士&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;工作科研经历&#34;&gt;工作科研经历&lt;/h2&gt;
+&lt;p&gt;集中在时空数据的相关领域、对NLP、IoT、虚拟化也有相关接触&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;使用信令数据的轨迹增强&lt;/strong&gt;，华为中央研究院，2022-2023年 &lt;br&gt;
+利用信令数据进行用户轨迹的去噪、高分辨率补全与纠偏工作&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自监督轨迹表征学习&lt;/strong&gt;，北航BIGSCITY，2022年 &lt;br&gt;
+使用对比学习与图注意力神经网络建模轨迹特征，文章发表于ICDE2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;细粒度通行时间预测&lt;/strong&gt;，滴滴地图与公交事业部，2021年 &lt;br&gt;
+使用ResNet模型结合路口与路段的通行时间生成路段级别的预估通行时间&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;路网表征学习&lt;/strong&gt;，北航BIGSCITY，2020年 &lt;br&gt;
+使用层次化图神经网络结合出租车数据建模路网特征，文章发表于KDD2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;境外输入疫情风险评估&lt;/strong&gt;，北航BIGSCITY，2020年 &lt;br&gt;
+基于病例、人口、环境等信息评估境外输入风险，报告至国家相关部门&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新闻文章标题自动生成&lt;/strong&gt;，微软亚洲研究院，2019年 &lt;br&gt;
+使用Transformer模型通过文章内容自动提取文章标题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可远程监护的智能宠物窝&lt;/strong&gt;，全国大学生物联网设计竞赛，2018年 &lt;br&gt;
+支持远程监控、健康护理、协助饲养，带领团队设计整个软、硬件系统&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;虚拟化架构设计与服务器运维&lt;/strong&gt;，2018年-至今 &lt;br&gt;
+设计北航与北理服务器ESXi+vSAN+Bitfusion基础架构，协助K8S部署使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;已发表文献&#34;&gt;已发表文献&lt;/h2&gt;
+&lt;small&gt;
+* Wu N, Zhao X W, Wang J, Pan D. Learning effective road network representation with hierarchical graph neural networks[C]//Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining. 2020: 6-14.
+&lt;/small&gt;
+&lt;br&gt;
+&lt;small&gt;
+* Jiang J, Pan D, Ren H, et al. Self-supervised Trajectory Representation Learning with Temporal Regularities and Travel Semantics[J]. arXiv preprint arXiv:2211.09510, 2022. (被ICDE2023接收)
+&lt;/small&gt;
+&lt;h2 id=&#34;编程经验&#34;&gt;编程经验&lt;/h2&gt;
+&lt;h3 id=&#34;编程语言&#34;&gt;编程语言&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;熟练（写得多）：Python&lt;/li&gt;
+&lt;li&gt;掌握（写的少）：C++、C#、Kotlin&lt;/li&gt;
+&lt;li&gt;初步接触（看得懂）：Java&lt;/li&gt;
+&lt;li&gt;感兴趣：Rust、Go、F#/Haskell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;杂项&#34;&gt;杂项&lt;/h2&gt;
+&lt;!-- ### 测试Test --&gt;
+&lt;h3 id=&#34;我的diy经历&#34;&gt;我的DIY经历&lt;/h3&gt;
+&lt;p&gt;2010-2012 AMD 羿龙 B40(速龙440开核) + NVIDIA GTX 460&lt;/p&gt;
+&lt;p&gt;2012-至今 Intel Xeon E3 1230V2 + AMD HD7850&lt;/p&gt;
+&lt;p&gt;2015-2020 Intel Core i7 6700K + NVIDIA GTX 1080&lt;/p&gt;
+&lt;p&gt;2019-至今  AMD Ryzen 7 3700X&lt;/p&gt;
+&lt;h3 id=&#34;正在书写的博客文章饼&#34;&gt;正在书写的博客文章（饼）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;多语言的Hugo配置&lt;/li&gt;
+&lt;li&gt;SSH JumpServer&lt;/li&gt;
+&lt;li&gt;HP iLO烧录失败后的抢救笔记&lt;/li&gt;
+&lt;li&gt;RAID失效的抢救笔记&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- ### 我的服务器 --&gt;
+&lt;small&gt;
+&lt;!-- Address: New Main Building G951, Beihang Unversity, Beijing, China, 100191. --&gt;
+&lt;hr&gt;
+E-mail: panda361#outlook&lt; dot &gt;com
+&lt;p&gt;Dayan Pan.
+&lt;/small&gt;&lt;/p&gt;
 </description>
         </item>
         

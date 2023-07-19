@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
+<html lang="" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='演示说明'>
 <title>Categories</title>
@@ -10,7 +10,7 @@
 <meta property='og:description' content='演示说明'>
 <meta property='og:url' content='/categories/'>
 <meta property='og:site_name' content='Panda&#39;s Blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2020-09-09T00:00:00&#43;00:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2023-07-18T20:08:59&#43;08:00 '/>
 <meta name="twitter:title" content="Categories">
 <meta name="twitter:description" content="演示说明"><link rel="alternate" type="application/rss&#43;xml" href="/categories/index.xml">
     <link rel="shortcut icon" href="/img/favicon.ico" />
@@ -196,6 +196,27 @@
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="/" selected>中文</option>
+                        
+                            <option value="/en/" >English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -263,6 +284,30 @@
         
         
         <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/archives/#2020">
+                        
+                            <span class="year">2020</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2019">
+                        
+                            <span class="year">2019</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#0001">
+                        
+                            <span class="year">0001</span>
+                            <span class="count">3</span>
+                        
+                    </a> 
+                </div>
             
         </div>
     </section>
@@ -326,13 +371,13 @@
     <header>
         <h3 class="section-title">
             
-                
+                Section
             
         </h3>
 
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count"></h3>
+                <h3 class="section-count">2 pages</h3>
                 <h1 class="section-term">Categories</h1>
                 
             </div>
@@ -378,12 +423,12 @@
     <section class="copyright">
         &copy; 
         
-            2020 - 
-        
         2023 Panda&#39;s Blog
     </section>
     
     <section class="powerby">
+        
+            Can merge?? <br/>
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
